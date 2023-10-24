@@ -12,3 +12,10 @@ h1{
     color: greenyellow;
     text-align: center;
 }
+
+#malu {
+position: absolute;
+top: 100px;
+left: 48%;
+
+}
