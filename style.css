@@ -2,13 +2,124 @@
   margin: 0;
   padding: 0;
 }
+
 body{
-    background: url(https://t.ly/G3g4-);
+  font-family: 'Poppins', sans-serif;
+
 }
-p {
-  color: yellow;
+
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px; 
+  background-color: rgb(57, 232, 34);
 }
-h1{
-    color: greenyellow;
-    text-align: center;
+
+/* Style the logo area */
+.logo-area img{
+  width: 50px;
 }
+
+.logo-area h1 {
+  font-style: s;
+  float: right;
+  color: rgb(52, 0, 125);
+  padding-left: 3px;
+}
+
+
+.menu-area ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  padding-right: 50px;
+}
+
+.menu-area li {
+  margin-right: 15px; 
+  cursor: pointer;
+  transition: color 0.3s; 
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.menu-area li:hover {
+  color: #FFFF; 
+}
+
+/* content area start from here */
+
+.container-area .content-area h1 {
+  font-size: 50px;
+  
+}
+
+#chomolokko {
+  color: rgb(181, 255, 21);
+}
+
+/* .content-area h1{
+  display: inline-block;
+  transform: translateX(-100%);
+  animation: slideIn 2s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+} */
+
+.container-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
+  /* background-color: rgb(237, 243, 236); */
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: 52% 100%; 
+}
+
+.content-area {
+  width: 45%;
+  padding-left: 6%;
+  text-align: justify;
+}
+.content-image {
+  padding-right: 6%;
+}
+.content-image img {
+  width: 600px;
+
+}
+
+.content-area p {
+  color: #2b2121;
+}
+
+#kallu {
+  padding: 15px 0px 10px 0px;
+}
+
+.button {
+  padding-top: 20px;
+}
+
+#btn {
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  background-color: orange;
+  border-radius: 7px;
+  box-sizing: border-box;
+  box-shadow: 1px 5px 6px 1px rgb(113, 106, 93);
+  color: #ffff;
+ 
+}
+
