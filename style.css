@@ -111,22 +111,6 @@ body{
   padding: 15px 0px 10px 0px;
 }
 
-.button {
-  padding-top: 20px;
-}
-
-#btn {
-  width: 95px;
-  height: 38px;
-  font-size: 18px;
-  background-color: orange;
-  border-radius: 7px;
-  box-sizing: border-box;
-  box-shadow: 1px 5px 6px 1px rgb(113, 106, 93);
-  color: #ffff;
- 
-}
-
 /* second content area start from here */
 .second-container {
   width: 100%;
@@ -183,6 +167,18 @@ padding-bottom: 15px;
 }
 
 .second-cont a {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: whitesmoke;
+  box-shadow: 1px 5px 6px 1px rgb(113, 106, 93);
+  font-size: 18px;
+}
+.hire-me{
+  margin-top: 25px;
+}
+.hire-me a {
   text-decoration: none;
   background-color: orange;
   padding: 10px 20px;
