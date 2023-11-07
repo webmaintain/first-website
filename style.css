@@ -289,12 +289,12 @@ padding-bottom: 15px;
 }
 
 .social-area::after {
-  content: 'Join Our Social Media Platform';
+  content: 'Join Our Social Media';
   color: #fff;
   position: relative;
   bottom: 8px;
   left: 5px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 
